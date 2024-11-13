@@ -71,7 +71,7 @@ Getting Started
 Installation
 To set up the project locally, clone the repository and install the dependencies:
 
-git clone (https://github.com/fahiiiiii/Accomodation-Vista)
+git clone https://github.com/fahiiiiii/Accomodation-Vista
 cd accomovista
 npm install
 Environment Variables
