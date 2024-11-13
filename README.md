@@ -37,6 +37,7 @@ Slugify: Generates SEO-friendly slugs for hotel and room titles.
 JSON File Storage: Used as a temporary data persistence layer (database integration is recommended for production).
 
 Project Structure
+
 ACCOMOVISTA/
 ├── node_modules/
 ├── public/
@@ -65,6 +66,7 @@ ACCOMOVISTA/
 ├── package.json
 ├── package-lock.json
 └── tsconfig.json
+
 Getting Started
 Installation
 To set up the project locally, clone the repository and install the dependencies:
