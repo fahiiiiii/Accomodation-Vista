@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2016",                /* JavaScript language version to emit. */
+    "module": "commonjs",               /* Module system for Node.js. */
+    "rootDir": "./src",                 /* Source directory for TypeScript files. */
+    "outDir": "./dist",                 /* Output directory for compiled JavaScript files. */
+    "typeRoots": ["./node_modules/@types", "./types"],
+    
+    /* Module Resolution */
+    "moduleResolution": "node",         /* Node.js module resolution. */
+    "esModuleInterop": true,            /* Allow default imports from CommonJS modules. */
+    "forceConsistentCasingInFileNames": true, /* Enforce consistent import casing. */
+
+    /* Type Checking */
+    "strict": true,                     /* Enable all strict type-checking options. */
+    "skipLibCheck": true                /* Skip checking types of third-party libraries. */
+  },
+  "include": ["src/**/*.ts"],           /* Include all TypeScript files in src folder. */
+  "exclude": ["node_modules"]           /* Exclude the node_modules folder. */
+}
