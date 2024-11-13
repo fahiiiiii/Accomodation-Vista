@@ -69,7 +69,7 @@ Getting Started
 Installation
 To set up the project locally, clone the repository and install the dependencies:
 
-git clone https://github.com/your-username/accomovista.git
+git clone (https://github.com/fahiiiiii/Accomodation-Vista)
 cd accomovista
 npm install
 Environment Variables
@@ -127,20 +127,7 @@ Request Fields: Same as POST /api/hotel.
 Response:
 200 OK: Successfully updated hotel details.
 404 Not Found: No hotel found with the provided ID.
-DELETE /api/hotel/:hotelId
-Description: Deletes a hotel entry.
-Path Parameters:
-hotelId (string): Unique identifier for the hotel.
-Response:
-200 OK: Successfully deleted the hotel.
-404 Not Found: No hotel found with the provided ID.
-GET /api/hotels
-Description: Retrieves a list of all hotels.
-Response:
-200 OK: Successfully retrieved the list of hotels.
-500 Internal Server Error: An error occurred while retrieving hotels.
-Testing
-AccomoVista uses Jest for testing. Unit and integration tests ensure that all functionality is reliable and that errors are handled gracefully.
+
 
 To run the tests:
 
