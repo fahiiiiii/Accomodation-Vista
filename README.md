@@ -152,6 +152,44 @@ http://localhost:3000/api
 - `500 Internal Server Error`: File upload or processing error.
 
 ---
+#### **GET /api/hotels**
+**Description**: Retrieves a list of all hotels.
+
+**Query Parameters:**
+None
+
+**Response:**
+- `200 OK`: Successfully retrieved list of hotels.
+  ```json
+  {
+    "hotels": [
+      {
+        "id": "hotel-id-1",
+        "title": "Luxury Hotel",
+        "description": "A 5-star luxury hotel",
+        "guestCount": 4,
+        "bedroomCount": 2,
+        "bathroomCount": 2,
+        "amenities": ["WiFi", "Pool", "Parking"],
+        "hostInfo": "John Doe",
+        "address": "123 Street, City",
+        "latitude": 12.3456,
+        "longitude": 78.9101,
+        "rooms": [
+          {
+            "hotelSlug": "luxury-hotel",
+            "roomSlug": "room-101",
+            "roomImage": "uploads/room-101.jpg",
+            "roomTitle": "Deluxe Room",
+            "bedroomCount": 1
+          }
+        ]
+      }
+      // ... more hotels
+    ]
+  }
+  ```
+- `500 Internal Server Error`: Server error while retrieving hotels.
 
 #### **GET /api/hotel/:hotelId**
 **Description**: Retrieves a hotel's details by ID.
