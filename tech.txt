@@ -1,0 +1,58 @@
+
+Technologies Used:
+
+Backend Framework & Runtime:
+
+Node.js - JavaScript runtime environment
+Express.js - Web application framework
+TypeScript - Typed superset of JavaScript for enhanced development
+
+
+File Handling:
+
+Multer - Middleware for handling multipart/form-data and file uploads
+
+
+Data Management:
+
+JSON File Storage - Temporary data storage solution
+Slugify - For generating URL-friendly slugs from titles
+
+
+Development & Testing:
+
+Jest - Testing framework for unit and integration tests
+ts-node - TypeScript execution environment
+nodemon - Development server with auto-reload capability
+
+
+Code Quality & Type Safety:
+
+TypeScript's built-in type checking
+ESLint (implied by project structure) - Code quality tool
+Type definitions for Express and Node
+
+
+Environment & Configuration:
+
+dotenv - Environment variable management
+Custom middleware for request validation
+Error handling middleware
+
+
+
+The project follows a modular architecture with clear separation of concerns:
+
+Controllers handle business logic
+Middleware manages file uploads and validation
+Routes define API endpoints
+Models structure data representation
+Type definitions ensure data consistency
+
+This tech stack makes the project highly maintainable, type-safe, and ready for scaling. While currently using JSON file storage, the architecture is designed to easily accommodate a database integration for production use.
+The project would be particularly suitable for:
+
+Hotel booking platforms
+Property management systems
+Travel agencies requiring a hotel management backend
+Vacation rental management systems
