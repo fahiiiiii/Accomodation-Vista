@@ -89,7 +89,6 @@ Create a `.env` file in the root directory with the following variables:
 
 ```env
 PORT=3000
-NODE_ENV=development
 ```
 
 Update these variables as needed for your environment.
